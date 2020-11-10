@@ -1,3 +1,4 @@
+@import url(./index.css);
 .Header{
     top: 0em;
     left: 0em;
@@ -45,10 +46,56 @@
 }
 .PieP
 {
-    position: absolute;
+    position: relative;
     top:100vh;
     left: 0em;
     height: 8em;
     width: 100%;
     background-color: #006d77
+}
+.imagen{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: 80%;
+    float: center;
+}
+.parrafoTitulo{
+    
+    float: right;
+    margin-top:12% ;
+    margin-right: 10%;
+    font-family: "Verdana,Arial" ;
+    font-size: 8vh;
+    color: #006d77
+}
+.parrafo{
+    float: right;
+    margin-top:.2% ;
+    font-family: "Arial" ;
+    font-size: 5vh;
+    color: rgb(19, 17, 17);
+    width: 80%;
+    margin-right: 10%;
+    justify-content: center;
+    text-justify: newspaper;
+
+}
+.columnaDeColor{
+    
+    margin-top:30% ;
+    
+    color:#fff;
+    background-color: #e29578;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    font-family: "Arial" ;
+    font-size: 5vh;
+    margin-right: 10%;
+    margin-left: 10%;
 }
