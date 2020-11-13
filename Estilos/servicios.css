@@ -175,15 +175,133 @@ h1
 }
 .vete1
 {
-    width: 50%;
-    height: 50em;
-    margin-left: 19em;
-    margin-top: 5em;
+    width: 30%;
+    height: 24em;
+    margin-left: 25em;
+    margin-top: 3em;
     display: flex;
     float: left;
+    background-color: #FFFFFF;
 }
 .veteri{
-    width: 22em;
-    height: 18em;
+    width: 23em;
+    height: 22em;
     border-radius: 50%;
+}
+.title
+{
+    width: 25%;
+    height: 1%;
+    margin-top: 2em;
+    margin-left: 1em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: left;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.titleVet
+{
+    color: #e29578;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.textVet{
+    width: 30%;
+    height: 10em;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: left;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.parrafoVet
+{
+    color: #000000;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.vete2
+{
+    width: 30%;
+    height: 24em;
+    margin-right: 10em;
+    margin-top: 9em;
+    display: flex;
+    float: right;
+    background-color: #FFFFFF;
+}
+
+.veteri2{
+    width: 23em;
+    height: 22em;
+    border-radius: 50%;
+}
+.title2
+{
+    width: 25%;
+    height: 1%;
+    margin-top: 5em;
+    margin-right: 5em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: right;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.titleVet2
+{
+    color: #e29578;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
+}
+.textVet2{
+    width: 30%;
+    height: 10em;
+    margin-top: 0.5em;
+    margin-right: 3.5em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: right;
+    text-align: right;
+    font-size: 1.5em;
+}
+.parrafoVet2
+{
+    color: #000000;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.PieP
+{
+    position: relative;
+    top:310vh;
+    left: 0em;
+    height: 8em;
+    width: 100%;
+    background-color: #006d77
+}
+.textoDesarolladores{
+    font-family: Arial;
+     width: 20%;
+     color: white; 
+     float: left; 
+     display: flex;
+     margin-left: 45em;
+     margin-top: 3em;
 }
