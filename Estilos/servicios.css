@@ -52,6 +52,33 @@
     color: #E29578;
     font-weight: bold;
 }
+
+.EncabezadoAnuncio
+{
+    top: 5em;
+    position: relative;
+    text-align: left;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 15%;
+    width: 5em;
+    font-size: 3em;
+    color: #e29578;
+}
+.EncabezadoAnuncio2
+{
+    top: 25em;
+    position: relative;
+    text-align: left;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 15%;
+    width: 5em;
+    font-size: 3em;
+    color: #e29578;
+}
 /*.contenedorIcon
 {   
     top: 27em;
@@ -111,9 +138,10 @@ div p
     right: 10%;
     width: 80%;
     font-family: Verdana, Arial;
-    height: 106.125em;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 40em;
+    background: #ffddd2 0% 0% no-repeat padding-box;
     opacity: 1;
+    border-radius: 20px;
 }
 section h1
 {
@@ -134,4 +162,28 @@ h1
     font-family: Verdana, Arial;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.veterinarios
+{
+    position: absolute;
+    top: 85em;
+    width: 100%;
+    left: 0%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.vete1
+{
+    width: 50%;
+    height: 50em;
+    margin-left: 19em;
+    margin-top: 5em;
+    display: flex;
+    float: left;
+}
+.veteri{
+    width: 22em;
+    height: 18em;
+    border-radius: 50%;
 }
