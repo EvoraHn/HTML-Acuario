@@ -2,7 +2,7 @@
 
 .Contenedor
 {
-    background-color: black;
+    background-color: #005D77;
 }
 
 .Encabezado
@@ -16,9 +16,9 @@
     background-color: transparent;
     z-index: 1;
 }
-li a
+li
 {
-    font-size: 3vh;
+    font-size: 2.4vh;
 }
 
 /*Encabezado*/
@@ -46,6 +46,8 @@ li a
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
 .MenuDePaginas
@@ -74,6 +76,8 @@ li a
 {
     position: absolute;
     flex: 1;
+    left: 0;
+
     width: 30%;
     height: 100vh;
     top: 0%;
@@ -85,19 +89,21 @@ li a
 .NombreDeLapagina
 {
     position: absolute;
-    flex: 2;
-    left: 40vh;
-    width: 60%;
+    flex: 1;
+    align-items: center;
     height: 70vh;
-    top: 20%;
-    bottom: 20%;
+
+
+    
+    margin-left: 3%;
+    
+
 }
 
 .LineaBlanca
 {
     position: absolute;
-    flex: 3;
-    left: 190vh;
+    right: 2%;
     width:1vh;
     height: 70vh;
     bottom: 0%;
@@ -115,20 +121,21 @@ li a
 span
 {
     position: relative;
-    left: 30%;
+    
     height: 50%;
     top: 10%;
     bottom: 10%;
     font-family: "Amboqia Boriango" ;
-    font-size: 20vh;
+    font-size: 17vh;
     color: white;
 }
 
 .IconosRedesSociales
 {
     position: relative;
+    margin-bottom: 5vh;
     width: 10%;
-    height: 40%;
+    
 }
 
 #PosicionContenderoIconos
@@ -141,6 +148,9 @@ span
 
 .Pie
 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top:100vh;
     left: 0em;
