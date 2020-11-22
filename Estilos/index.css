@@ -7,7 +7,6 @@
 
 .Encabezado
 {
-    /*Canal alfa de transpariencia*/
     position: fixed;
     width: 100%;
     height: 7vh;
@@ -19,7 +18,7 @@
 }
 li a
 {
-    height: 1vh;
+    font-size: 3vh;
 }
 
 /*Encabezado*/
@@ -37,22 +36,16 @@ li a
 {
     position: absolute;
     display: flex;
-    top: 0em;
-    left: 0em;
-    right: 0em;
+    top: 0vh;
+    left: 0vh;
+    right: 0vh;
     width: 100%;
     height:100%;
-
     background: url('../Imagenes/Medusa_luna.gif') no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-
-    
-    /*Caja principal*/
-
 }
 
 .MenuDePaginas
@@ -67,15 +60,16 @@ li a
     list-style: none;
     margin: 0; 
     font-size: 1.5em;
-    
 }
 
-.MenuDePaginas a {
+.MenuDePaginas a 
+{
     text-decoration: none;
     display: block;
     padding: 1em;
     color: white;
 }
+
 .RedesSociales
 {
     position: absolute;
@@ -86,9 +80,8 @@ li a
     bottom: 20%;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(0,0,0,0.6661753025683728) 48%, rgba(0,212,255,0) 100%);
-    
-
 }
+
 .NombreDeLapagina
 {
     position: absolute;
@@ -98,7 +91,6 @@ li a
     height: 70vh;
     top: 20%;
     bottom: 20%;
-
 }
 
 .LineaBlanca
@@ -106,12 +98,12 @@ li a
     position: absolute;
     flex: 3;
     left: 190vh;
-    width:0.4%;
+    width:1vh;
     height: 70vh;
-    
     bottom: 0%;
     background-color: white;
 }
+
 @font-face
 {
     font-family: "Amboqia Boriango";
@@ -137,8 +129,8 @@ span
     position: relative;
     width: 10%;
     height: 40%;
-    
 }
+
 #PosicionContenderoIconos
 {
     position: relative;
@@ -146,6 +138,7 @@ span
     height: 30%;
     left: 10%;
 }
+
 .Pie
 {
     position: absolute;
