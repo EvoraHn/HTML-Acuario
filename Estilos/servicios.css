@@ -1,3 +1,4 @@
+@import url(./info.css);
 .Header{
     top: 0em;
     left: 0em;
@@ -49,35 +50,71 @@
     font-family: "Verdana, Arial";
     font-size: 8vh;
     color: #E29578;
+    font-weight: bold;
 }
-.ContenedorIcon
+
+.EncabezadoAnuncio
+{
+    top: 5em;
+    position: relative;
+    text-align: left;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 15%;
+    width: 5em;
+    font-size: 3em;
+    color: #e29578;
+}
+.EncabezadoAnuncio2
+{
+    top: 25em;
+    position: relative;
+    text-align: left;
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    left: 15%;
+    width: 5em;
+    font-size: 3em;
+    color: #e29578;
+}
+/*.contenedorIcon
 {   
-    top: 10em;
+    top: 27em;
     position: relative;
     width: auto;
-    height: 30em;
+    height: 40em;
     display: flex;
-    justify-content: center;  
+    justify-content: right; 
 }
-.ContenedorIcon > div
+.contenedorIcon > div
 {
     position: relative;
     flex: 1;
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow: -20px 20px 60px #d9d9d9, 
-            20px -20px 60px #ffffff;
+    border-radius: 10px;
+    background: #006d77;
+    box-shadow: -20px 20px 60px #83c5be, 
+            20px -20px 60px #ffddd2;
     margin: 3em;
-    padding: 1em;
-    width: 10em;
+    padding: 2em;
+    width: 20em;
 }
 .Icon{
     position: relative;
     top: 1em;
     height: 9em;
     bottom: 3em;
-    left: 0.6em;
+    left: 2.5em;
 }
+
+div p
+{
+    color: white;
+}
+
+
+
 .Texto
 {
     position: relative;
@@ -87,5 +124,184 @@
     bottom: auto;
     width: 100%;
     text-align: center;
+    font-family: Verdana, Arial;
+}*/
+
+
+
+.Contenido
+{
+
+    position: absolute;
+    top: 27em;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    font-family: Verdana, Arial;
+    height: 40em;
+    background: #ffddd2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 20px;
+}
+section h1
+{
+    position: relative;
+    left: 10%;
+    text-align: left;
+    font: normal normal normal 60px/80px Segoe UI;
+    color:black;
+    text-transform: uppercase;
+}
+
+h1
+{
+    position: relative;
+    right: 10%;
+    font-size: 2em;
+    text-align: right;
+    font-family: Verdana, Arial;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.veterinarios
+{
+    position: absolute;
+    top: 85em;
+    width: 100%;
+    left: 0%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.vete1
+{
+    width: 30%;
+    height: 24em;
+    margin-left: 25em;
+    margin-top: 3em;
+    display: flex;
+    float: left;
+    background-color: #FFFFFF;
+}
+.veteri{
+    width: 23em;
+    height: 22em;
+    border-radius: 50%;
+}
+.title
+{
+    width: 25%;
+    height: 1%;
+    margin-top: 2em;
+    margin-left: 1em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: left;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.titleVet
+{
+    color: #e29578;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.textVet{
+    width: 30%;
+    height: 10em;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: left;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.parrafoVet
+{
+    color: #000000;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.vete2
+{
+    width: 30%;
+    height: 24em;
+    margin-right: 10em;
+    margin-top: 9em;
+    display: flex;
+    float: right;
+    background-color: #FFFFFF;
+}
+
+.veteri2{
+    width: 23em;
+    height: 22em;
+    border-radius: 50%;
+}
+.title2
+{
+    width: 25%;
+    height: 1%;
+    margin-top: 5em;
+    margin-right: 5em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: right;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.titleVet2
+{
+    color: #e29578;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: bold;
+}
+.textVet2{
+    width: 30%;
+    height: 10em;
+    margin-top: 0.5em;
+    margin-right: 3.5em;
+    background-color: #FFFFFF;
+    display: flex;
+    float: right;
+    text-align: right;
+    font-size: 1.5em;
+}
+.parrafoVet2
+{
+    color: #000000;
+    font-family: Verdana, Arial;
+    line-height: 1.5;
+    text-align: left;
+    
+}
+.PieP
+{
+    position: relative;
+    top:310vh;
+    left: 0em;
+    height: 8em;
+    width: 100%;
+    background-color: #006d77
+}
+.textoDesarolladores{
     font-family: Arial;
+     width: 20%;
+     color: white; 
+     float: left; 
+     display: flex;
+     margin-left: 45em;
+     margin-top: 3em;
 }
