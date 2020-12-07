@@ -16,7 +16,7 @@
     background-color: transparent;
     z-index: 1;
 }
-li
+li > a 
 {
     font-size: 2.4vh;
 }
