@@ -1,25 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="author" content="Lorenzo Angelino aka MrLolok">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./LoginBlackStyle.css" >
-    <title>Document</title>
+    <link rel="stylesheet" href="../Estilos/LoginBlackStyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../Javascript/loginBlack.js" ></script>
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
 </head>
+
 <body>
-    <form class="login-form">
-        <p class="login-text">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-lock fa-stack-1x"></i>
-          </span>
-        </p>
-        <input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
-        <input type="password" class="login-password" required="true" placeholder="Password" />
-        <input type="submit" name="Login" value="Login" class="login-submit" />
-      </form>
-      <a href="#" class="login-forgot-pass">forgot password?</a>
-      <div class="underlay-photo"></div>
-      <div class="underlay-black"></div> 
+    <div id="container-login">
+        <div id="title">
+            <i class="material-icons lock">lock</i> Iniciar sesion
+        </div>
+
+        <form action="./bienvenido.html" method="post" onsubmit="return validacionDeLogin()">
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons" style="color: #373E4A; border-color: black;">face</i>
+                </div>
+                <input name="username" id="username" placeholder="Nombre de usuario" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons" style="color: #373E4A;">vpn_key</i>
+                </div>
+                <input name="password" id="password" placeholder="contraseña" type="password" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color: #DDD">Recordar</span>
+            </div>
+            
+            <input type="submit" value="Entrar" />
+        
+        </form>
+
+        <div class="forgot-password">
+            <a href="#">Olvidaste tu contraseña?</a>
+        </div>
+        <div class="privacy">
+            <a href="#">Politica de Privacidad</a>
+        </div>
+
+        <div class="register">
+            ¿ No tienes una cuenta ?
+            <a href="./register.html"><button id="register-link">Registrarme</button></a>
+        </div>
+    </div>
 </body>
+
 </html>
