@@ -38,27 +38,32 @@ function busquedaDeAlimento()
         }
     ];
     
+    buscandoInformacion();
+    function buscandoInformacion()
+    {
+        let validando = false;
+        inserccion.forEach(function (dato,indice)  {
+            if( dato.nombreBuscado === busqueda)
+            {
+                principal.innerHTML = principal.innerHTML + inserccion[indice].codigo;
+                vallidandoBusqueda(true);
+                validando = true;
+            }
+        });
 
+        validando
+        ? console.log("nada")
+        : vallidandoBusqueda(false);
 
-    alert(busqueda);
-    inserccion.forEach(function (dato,indice)  {
-        if( dato.nombreBuscado === busqueda)
-        {
-            alert(busqueda);
-            principal.innerHTML = principal.innerHTML + inserccion[indice].codigo;
-           vallidandoBusqueda(true);
-        }
-        else
-        {
-            vallidandoBusqueda(false);
-        }
-    });
+    };
+    
+    
     
 
      function vallidandoBusqueda (valor)
     {
-        let nones = "<h1>nones</h1>";
-        valor ?  alert("enocntrado") : principal.innerHTML = principal.innerHTML + nones; 
+        
+        valor ?  alert("¡Encontrado!") : alert("¡No encontrado!"); 
     }
  
 };
