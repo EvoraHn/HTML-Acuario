@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Estilos/login.css">
+  <script src="../Javascript/Login.js" ></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/be030012a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <img src="../Imagenes/wave.svg" alt="wave-backround" class="wave">
+  <div class="container">
+    <div class="img">
+      <img src="../Imagenes/medusa.svg" alt="mobile-app">
+    </div>
+    <div class="login-container">
+      <form action="Login.html" method="post" onsubmit="return validacionDeLogin()" >
+        <img class="avatar" src="../Imagenes/undraw_profile_pic_ic5t.svg" alt="avatar">
+        <h2>Bienvenido</h2>
+        <div class="input-div one">
+          <div class="i">
+            <i class="fas fa-user"></i>
+          </div>
+          <div>
+            
+            <input type="text" class="input" name="username" id="username" placeholder="Nombre de usuario" autocomplete="off">
+          </div>
+        </div>
+        <div class="input-div two">
+          <div class="i">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div>
+            
+            <input type="password" class="input" name="password" id="password" placeholder="Contraseña"autocomplete="off">
+          </div>
+        </div>
+        
+        <a href="#">  </a>
+        <input type="submit" class="btn" value="Entrar">
+      </form>
+    </div>
+  </div>
+  <script src="../JavaScript/Login.js"></script>
+</body>
+</html>
