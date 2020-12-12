@@ -30,6 +30,31 @@
     color: white;
     font-size: 2.5vw;
 }
+.Banda
+{
+    position: relative;
+    top: .01%;
+    float: left;
+    height: 6vw;
+    width: 6vw;
+    bottom: 10%;
+    left: 0%;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+
+.Titulo{
+    
+    float: left;
+    margin-top: 15% ;
+    margin-left: 8%;
+    font-family: "Verdana, Arial";
+    font-size: 8vh;
+    color: #E29578;
+    font-weight: bold;
+}
+
 .LogoP
 {
     position: relative;
