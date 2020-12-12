@@ -11,8 +11,8 @@ body {
     position: relative;
     top: 20%;
     margin: auto;
-    width: 340px;
-    height: 445px;
+    width: 30vw;
+    height: 40vw;
     border-radius: 0.35em;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -23,8 +23,8 @@ body {
     position: relative;
     top: 20%;
     margin: auto;
-    width: 340px;
-    height: 480px;
+    width: 30vw;
+    height: 40vw;
     border-radius: 0.35em;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -34,20 +34,20 @@ body {
     position: relative;
     background-color: #006d77;
     width: 100%;
-    padding: 20px 0px;
+    padding: 1vw 0vw;
     border-radius: 0.35em;
-    font-size: 22px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 2vw;
+    border-bottom: .1vw solid rgba(255, 255, 255, 0.05);
 }
 
 .lock {
 	position: relative;
-	top: 2px;
+	top: .2vw;
 }
 
 .input {
     margin: auto;
-    width: 240px;
+    width: 95%;
     border-radius: 4px;
     background-color: #aab0b3;
     padding: 8px 0px;
@@ -58,8 +58,8 @@ body {
     float: left;
     background-color:#aab0b3;
     border: 1px solid #aab0b3;
-    padding: 4px 8px;
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0.4vw 0.8vw;
+    border-right: 1vw solid rgba(255, 255, 255, 0.05);
 }
 
 input[type=checkbox] {
@@ -126,7 +126,7 @@ input[type=email]:focus {
 }
 
 .privacy {
-    margin-top: 5px;
+    margin-top: 0.5vw;
     position: relative;
     font-size: 12px;
     bottom: 0%;

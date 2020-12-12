@@ -49,10 +49,12 @@ h1{
 
 
 #form{
-	height: 100vw;	
+	
+	height: 220vw;	
 	background-color: #006d77;
 	overflow: hidden;
 	position: relative;
+
 	
 }
 form{
