@@ -102,12 +102,17 @@ li > a
 
 .LineaBlanca
 {
+    
     position: absolute;
     right: 2%;
-    width:1vh;
-    height: 70vh;
+    width:30vh;
+    height: 20vh;
     bottom: 0%;
-    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+
 }
 
 @font-face
