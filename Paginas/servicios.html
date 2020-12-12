@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="stylesheet" href="../Estilos/servicios.css">
+    <script src="../JavaScript/busquedaDeAlimento.js" ></script>
 </head>
-<body style="background-color: blue;" >
+<body  >
 
     <div class="Header"> 
         <img class="Banda"  src="../Imagenes/Logo.svg"/>
@@ -23,27 +24,16 @@
         </ul>
     </div>
     
-    <div style="display: flex; width: 100%; height: auto; align-items: center; background-color: brown; flex-direction: column;" >
-        <div class="Contenido">
+    <div style="display: flex; width: 100%; height: auto; align-items: center; flex-direction: column;" >
+        <div id="Contenido" class="Contenido">
             <div class="Buscador" >
-                <input type="text" name="BuscancoAlimento" id="BuscancoAlimento">
-                <input type="button" value="">
+                <form>
+                <input placeholder="Ingrese el nombre de un alimento" type="text" name="alimentoBuscado" id="alimentoBuscado">
+                <button class="botonBuscar" onclick="busquedaDeAlimento()" value="">Buscar</button>
+            </form>
             </div>
-            <div class="info-pod">
-                <img src="../Imagenes/foodFish.png">
-                <h2>GoldFish</h2>
-                <p style=" font-size: 3vw; color: black; font-family: Verdana,Arial;">
-                    sera Goldy Color Spirulina es el alimento colorante que 
-                    se compone de granulado cuidadosamente elaborado, para 
-                    carpas doradas grandes, variedades exigentes y otros 
-                    peces exigentes de agua fría.
-                    <br>
-    
-                    sera Goldy Color Spirulina es el alimento colorante que 
-                    se compone de granulado cuidadosamente elaborado, para 
-                    carpas doradas grandes, variedades exigentes y otros 
-                    peces exigentes de agua fría.
-                </p>
+            <div style="height: 2vh;">
+                
             </div>
         </div>
     
@@ -75,16 +65,16 @@
 
             <div class="textVet2">
                 <span class="parrafoVet2">
-                    Teléfono: (+504) 98754144 <br>
-                    Correo electronico: fabian@gmail.com
+                    Teléfono: (+504) 35255484 <br>
+                Correo electronico: juan@gmail.com
                 </span>
             </div>
             <div class="title2">
                 <span class="titleVet2">
-                    Nombre: Fabian Ruiz
+                    Nombre: Juan Bertz
                 </span>
             </div>
-            <img class="veteri" src="../Imagenes/veterinaria.png">
+            <img class="veteri" src="../Imagenes/Veteri1.png">
             
     
             
