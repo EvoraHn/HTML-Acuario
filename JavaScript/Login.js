@@ -35,11 +35,12 @@ function validacionDeLogin()
   if(login[0].nombreDeUsuario === "admin" && login[0].contraseña === "password" )
   {
     alert("Acceso permitido");
+    window.open("../index.html");
     return true;
   }
   else
   {
-    alert("Acceso denegado");
+    alert("¡Acceso denegado! intenta de nuevo");
     return false;
   }
 };
