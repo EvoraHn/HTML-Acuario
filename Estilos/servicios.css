@@ -117,7 +117,7 @@
  .botonBuscar
  {
     width: 10vw;
-   
+    font-size: calc(0.1em + 1vw ) ;
     background: #FFDDD2;
     
     height: 3vh;
